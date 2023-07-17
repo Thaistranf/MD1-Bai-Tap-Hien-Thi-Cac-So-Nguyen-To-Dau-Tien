@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+  <script>
+    let numbers = parseInt(prompt("Nhập số lượng số nguyên tố để in ra:"));
+    let count = 0;
+    let N = 2;
+    while (count < numbers) {
+      if (N % 1 === 0 && N % N === 0) {
+        alert(N);
+      }
+      count++;
+      N++;
+    }
+  </script>
+</body>
+</html>
